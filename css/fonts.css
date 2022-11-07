@@ -16,6 +16,7 @@
     url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
       format("svg");
 }
+
 @font-face {
     font-family: 'Iskra';
     src: url('/fonts/Iskra-Medium.eot');
@@ -27,4 +28,11 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+@font-face {
+  font-family: iskra_medium;
+  font-display: swap;
+  src: url("../fonts/iskra_medium.woff2") format("woff2"), url("../fonts/iskra_medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
